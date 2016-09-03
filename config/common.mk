@@ -94,6 +94,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/du/prebuilt/common/UPDATE-SuperSU.zip:system/addon.d/UPDATE-SuperSU.zip \
     vendor/du/prebuilt/common/etc/init.d/99SuperSUDaemon:system/etc/init.d/99SuperSUDaemon
+    
+#DragonTC
+-include vendor/validus/config/dtc.mk    
 
 # Versioning System
 ANDROID_VERSION = 6.0.1
